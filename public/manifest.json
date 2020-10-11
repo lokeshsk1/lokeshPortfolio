@@ -1,7 +1,6 @@
 {
-  "short_name": "masterPortfolio",
-  "name": "masterPortfolio",
-  "icons": [
+ "name": "App",
+ "icons": [
   {
    "src": "\/android-icon-36x36.png",
    "sizes": "36x36",
@@ -38,9 +37,5 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+ ]
 }
