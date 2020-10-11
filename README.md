@@ -30,19 +30,6 @@
 
 :star: Star us on GitHub — it helps!
 
-# Sections 📚
-
-✔️ Summary and About me\
-✔️ Skills \
-✔️ Open Source Projects Connected with Github\
-✔️ Experience\
-✔️ Certifications 🏆\
-✔️ Blogs\
-✔️ Education\
-✔️ Contact me
-
-To view a live example, **[click here](https://ashutosh1919.github.io/)**
-
 # Clone And Use 📋
 
 - The website is completely built on `react-js` framework of `javascript` and that's why we need `nodejs` and `npm` installed.
@@ -110,24 +97,6 @@ node git_data_fetcher.js
 This will fetch all the data from your github and it will automatically replace my data with yours.
 Whenever you want to update the github related information on the website you need to run this command.
 
-### Splash Logo
-
-Note here that if you click [my portfolio](https://ashutosh1919.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
-Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
-
-- If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo.
-- If you don't want Splash screen or you don't know how to design logo, then this option is for you.
-
-  - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
-  - ```python
-    // Website related settings
-    const settings = {
-      isSplash: true,
-    };
-    ```
-  - Change `isSplash` from `true` to `false`.
-  - Now, if you see your website using `npm start`, it will directly open `home` rather than animating logo `splash` screen.
-  - If you design your logo in future, then edit the files in `./src/components/Loader` and then revert `isSplash` to `true` in `src/portfolio.js`.
 
 # Choose Theme 🌈
 
@@ -183,38 +152,3 @@ If you are stuck somewhere and want to observe the deployment process in depth, 
 # License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
-# Contributing 💡
-
-If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/ashutosh1919/masterPortfolio/pulls) or [issue](https://github.com/ashutosh1919/masterPortfolio/issues).
-
-- Move to Gatsby
-- Add Podcast Section and Video Section
-- Add tests to automate review.
-- Setup Travis workflow.
-
-# Contributors ✨
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://ashutosh1919.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Documentation">📖</a> <a href="#design-ashutosh1919" title="Design">🎨</a> <a href="#maintenance-ashutosh1919" title="Maintenance">🚧</a> <a href="#ideas-ashutosh1919" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://danielmarostica.github.io/"><img src="https://avatars3.githubusercontent.com/u/3595998?v=4" width="100px;" alt=""/><br /><sub><b>Daniel Marostica</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=danielmarostica" title="Documentation">📖</a> <a href="#design-danielmarostica" title="Design">🎨</a></td>
-    <td align="center"><a href="https://dineshnadimpalli.com"><img src="https://avatars2.githubusercontent.com/u/13104926?v=4" width="100px;" alt=""/><br /><sub><b>Dinesh Nadimpalli</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=dineshnadimpalli" title="Code">💻</a></td>
-    <td align="center"><a href="http://jivthesh.github.io"><img src="https://avatars3.githubusercontent.com/u/20579980?v=4" width="100px;" alt=""/><br /><sub><b>Jivthesh M R</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=jivthesh" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://jatinchauhan.tech"><img src="https://avatars2.githubusercontent.com/u/40722235?v=4" width="100px;" alt=""/><br /><sub><b>Jatin Chauhan</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=mrjatinchauhan" title="Code">💻</a></td>
-    <td align="center"><a href="https://th3c0d3br34ker.github.io/"><img src="https://avatars1.githubusercontent.com/u/60807938?v=4" width="100px;" alt=""/><br /><sub><b>Jainam Desai</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=th3c0d3br34ker" title="Code">💻</a> <a href="#question-th3c0d3br34ker" title="Answering Questions">💬</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-# References 👏🏻
-
-- Some Design and Implementation Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio).
-- The Logo of MasterPortfolio is inspired from [prettier-logo](https://github.com/prettier/prettier-logo) for [prettier](https://github.com/prettier/prettier) designed by @ianstormtaylor.
