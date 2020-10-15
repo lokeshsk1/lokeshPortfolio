@@ -467,7 +467,7 @@ const certifications = {
       year:"2018-2020",
       logo_path: "sr.png",
       certificate_link:
-        "#http://intern.skillrack.com/profile/227661/3ab759ed72135771bdda3bedf0d01d36b49b0f0e",
+        "http://intern.skillrack.com/profile/227661/3ab759ed72135771bdda3bedf0d01d36b49b0f0e",
       alt_name: "Bharathidasan University",
       color_code: "#fff",
     },
