@@ -447,7 +447,7 @@ const certifications = {
       year:"2013",
       logo_path: "bh.png",
       certificate_link:
-        "#",
+        "https://drive.google.com/file/d/1hLrlvCbXMAxrY1g48vv7hPHYLnPUxskQ/view?usp=sharing",
       alt_name: "Bharathidasan University",
       color_code: "#fff",
     },
@@ -457,7 +457,7 @@ const certifications = {
       logo_path: "bh.png",
       year:"2014",
       certificate_link:
-        "#",
+        "https://drive.google.com/file/d/1HDcW_ywQ895e9aNgXSCj2h958b78v1ae/view?usp=sharing",
       alt_name: "Bharathidasan University",
       color_code: "#fff",
     },
