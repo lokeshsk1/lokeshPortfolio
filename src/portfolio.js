@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/19Vs7cv1xXNSNaygaKXwr0Mo-g6mwkHyl/view?usp=sharing",
+    "https://drive.google.com/file/d/1WXVvG8t-NaOdlTp5xWws3B0NWQX5LF55/view?usp=sharing",
   portfolio_repository: "https://github.com/lokeshsenthilkumar/lokeshPortfolio",
 };
 
